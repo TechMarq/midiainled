@@ -4,17 +4,17 @@
 }
 
 body {
-    background-image: url(../img/Color\ Wallpaper.jpg);
+    background-image: url(../img/backgroundmil.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:inherit;
     font-family: 'Lato', sans-serif;
     color: white;
 }
 
 .logo {
-    width: 80px;
-    border-radius: 100%;
-    box-shadow: 0 0 20px white;
+    width: 150px;
+    /*border-radius: 100%;
+    box-shadow: 0 0 20px white;*/
     margin-top: 15px;
 }
 .profile {
@@ -64,7 +64,7 @@ h1{
 }
 
 footer{
-    display: flex;
+    display: block;
     padding: 15px;
 
 }
@@ -115,3 +115,22 @@ h5{
 .contact-list2 li a span {
 color: black;
 }
+
+.rodape{
+    display: flex;
+    padding: 10px;
+    margin: 10px 8px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size:16px;
+
+}
+.rodape img{
+    width: 60px;
+   
+}
+.powered{
+    display: flex;
+}
+
