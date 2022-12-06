@@ -5,8 +5,8 @@
 
 body {
     background-image: url(../img/backgroundmil.png);
-    background-repeat:no-repeat;
-    background-size:inherit;
+    /*background-repeat:no-repeat;*/
+    background-size:contain;
     font-family: 'Lato', sans-serif;
     color: white;
 }
