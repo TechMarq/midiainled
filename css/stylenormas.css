@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/backgroundmil.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.interection_list2 {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 300px;
+}
+
+.interection_list2 img{
+    width: 25px;
+}
+
+.interection_list2 li {
+    margin: 20px 20px;
+}
+
+.interection_list2 li a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: block;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    text-decoration: none;
+}
+
+.rodape{
+    display: flex;
+    padding: 10px;
+    margin: 10px 8px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size:16px;
+
+}
+.rodape img{
+    width: 60px;
+   
+}
+.powered{
+    display: flex;
+}
+
