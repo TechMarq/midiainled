@@ -4,11 +4,23 @@
 }
 
 body {
-    background-image: url(../img/backgroundmil.png);
-    background-repeat:no-repeat;
-    background-repeat: round;
+    background-image: linear-gradient(to right, #ea902f, #e56360, #d635c3, #af53d0, #838bdb, #7098db 60%);
     font-family: 'Lato', sans-serif;
     color: white;
+    animation: colors 5s ease infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes colors{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .logo {
@@ -132,6 +144,8 @@ h5{
    
 }
 .powered{
-    display: flex;
+    text-align: center;
+    display: block;
+    font-size: 12px;
 }
 

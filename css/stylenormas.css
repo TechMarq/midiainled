@@ -4,9 +4,7 @@
 }
 
 body {
-    background-image: url(../img/backgroundmil.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
+    background-image: linear-gradient(to right, #ea902f 0%, #e56360 16%, #d635c3 32%, #af53d0 48%, #838bdb 60%, #7098db 100%);
     font-family: 'Lato', sans-serif;
     color: white;
 }
