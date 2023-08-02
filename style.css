@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #ea902f, #e56360, #d635c3, #af53d0, #838bdb, #7098db 60%);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    animation: colors 5s ease infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes colors{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    width: 150px;
+    /*border-radius: 100%;
+    box-shadow: 0 0 20px white;*/
+    margin-top: 15px;
+}
+.profile {
+    text-align: center;
+}
+
+.interection_list {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.interection_list li {
+    margin: 10px 20px;
+}
+
+.interection_list li a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: block;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    text-decoration: none;
+}
+
+.contact-list li a span {
+color: black;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 30px;
+}
+.social img{
+    width: 50px;
+    /*box-shadow: 0 0 20px black;
+    border-radius: 40px;*/
+    
+}
+h1{
+    font-size: 20px;
+    margin-top: 20px;
+    text-shadow: 0 0 20px black;
+}
+
+footer{
+    display: block;
+    padding: 15px;
+
+}
+
+h2,h3{
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+h5{
+    text-decoration: none;
+    list-style: none;
+}
+
+.videoapresentacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formssatifascao{
+    opacity: 0.8;
+}
+
+.interection_list2 {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 300px;
+}
+
+.interection_list2 img{
+    width: 25px;
+}
+
+.interection_list2 li {
+    margin: 20px 20px;
+}
+
+.interection_list2 li a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: block;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    text-decoration: none;
+}
+
+.rodape{
+    display: flex;
+    padding: 10px;
+    margin: 10px 8px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size:16px;
+
+}
+.rodape img{
+    width: 60px;
+   
+}
+.powered{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+}
+
